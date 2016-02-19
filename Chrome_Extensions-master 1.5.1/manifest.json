@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Keyboard Shortcuts",
+  "version": "1.5.1",
+  "description": "Custom Chrome Keyboard Shortcuts.",
+  "icons": {
+    "128": "icons/icon-128x128.png",
+    "48":  "icons/icon-48x48.png",
+    "16":  "icons/icon-16x16.png"
+  },
+   "commands": {
+      "close_tab": {
+         "description": "Close Tab [Current]"
+      },
+      "extensions_tab": {
+        "description": "Google Extensions"
+      },
+      "chrome_apps": {
+        "description": "Google Applications"
+      },
+      "gmail": {
+        "description": "Google Mail"
+      },
+      "drive": {
+          "description": "Google Drive"
+      },
+      "music": {
+          "description": "Google Music"
+      },
+      "youtube": {
+          "description": "Youtube"
+      },
+      "toggle-pin-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P"
+      },
+      	"description": "Pin Current Tab"
+      }
+   },
+  "author": "Naacal",
+  "background": {
+    "scripts": [ "src/hotkeys.js" ]
+  }
+}
